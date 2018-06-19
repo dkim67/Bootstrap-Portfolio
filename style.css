@@ -9,6 +9,9 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.custom-navbar {
+    position: relative;
+}
 .navstyle {
     border-bottom: 5px double rgb(199, 208, 255);
     border-top: 5px double rgb(199, 208, 255);
@@ -42,7 +45,8 @@ p {
 }
 
 .container1 {
-    width: 1080px;
+    width: 80%;
+    max-width: 1080px;
     background-color: black;
     margin: 0, auto;
     margin-top: 80px;
@@ -53,8 +57,11 @@ p {
     border-color: white;
 }
 
+
+
 .container2 { 
-    width: 1080px;
+    width: 80%;
+    max-width: 1080px;
     background: transparent;
     margin: 0, auto;
     margin-top: 10px;
@@ -65,7 +72,8 @@ p {
 }
 
 .container3 {
-    width: 1080px;
+    width: 80%;
+    max-width: 1080px;
     background-color: black;
     margin: 0, auto;
     margin-top: 30px;
@@ -74,6 +82,12 @@ p {
     padding-left: 20px;
     border-style: dotted dashed dotted dashed;
     border-color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .container1, .container2, .container3 {
+        width: 100%;
+    }
 }
 
 .footer {
@@ -104,7 +118,14 @@ p {
     
 }
 
-#project-pics {
+@media only screen and (max-width: 500px) {
+    #propic {
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+
+.project-pics {
     width: 400px;
     height: auto;
     margin: 0 auto;
@@ -152,6 +173,29 @@ p {
     bottom: 50px;
     text-align: center;
 }
+@media only screen and (min-width: 701px) {
+    .custom-menu-container {
+        position: absolute;
+        right: 5px;
+        display: flex;
+        flex-direction: row!important;
+    }
+}
 
+
+.nav-link {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-brand {
+        width: 100%!important;
+    }
+    .custom-menu-container {
+        width: 100%;
+        flex-direction: row!important;
+    }
+}
 
  
