@@ -166,6 +166,14 @@ p {
     text-align: center;
 }
 
+#break-down {
+    background-color: black;
+    position: absolute;
+    width: 400px;
+    bottom: 50px;
+    text-align: center;
+}
+
 #sky-game {
     background-color: black;
     position: absolute;
