@@ -1,3 +1,3 @@
-# Bootstrap-Portfolio
+# Portfolio
 
-Deployed Link: dkim67.github.io/Bootstrap-Portolio
+Deployed Link: dkim67.github.io/Daniel-Kim
